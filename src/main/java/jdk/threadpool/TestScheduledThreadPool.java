@@ -1,4 +1,4 @@
-package threadpool;
+package jdk.threadpool;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
