@@ -1,6 +1,8 @@
 package leetcode;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -39,5 +41,9 @@ public class PalindromeNumber {
 
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
+
+        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        Date start = new Date(2019, 3, 7);
+        System.out.println(start.getTime());
     }
 }
