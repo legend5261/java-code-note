@@ -39,11 +39,27 @@ public class PalindromeNumber {
         return true;
     }
 
+    public static int removeDuplicates(int[] nums) {
+        int i = 0;
+        for (int n : nums)
+            if (i == 0 || n > nums[i-1]) {
+                nums[i++] = n;
+            }
+
+        for (int c:nums) {
+            System.out.println("#" + c);
+        }
+        return i;
+    }
+
     public static void main(String[] args) {
         System.out.println(isPalindrome(121));
 
         SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date start = new Date(2019, 3, 7);
         System.out.println(start.getTime());
+
+        int[] a = {1,1,2,3};
+        System.out.println(removeDuplicates(a));
     }
 }
