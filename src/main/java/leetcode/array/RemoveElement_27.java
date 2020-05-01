@@ -22,7 +22,7 @@ public class RemoveElement_27 {
 
     public static void main(String[] args) {
         RemoveElement_27 obj = new RemoveElement_27();
-        int[] arrays = {0,1,2,2,3,0,4,2};
+        int[] arrays = {0, 1, 2, 2, 3, 0, 4, 2};
         int len = obj.removeElement(arrays, 2);
 
         System.out.println("Arrays: ");

@@ -59,7 +59,7 @@ public class PalindromeNumber {
         Date start = new Date(2019, 3, 7);
         System.out.println(start.getTime());
 
-        int[] a = {1,1,2,3};
+        int[] a = {0,0,1,1,1,2,2,3,3,4};
         System.out.println(removeDuplicates(a));
     }
 }
